@@ -10,7 +10,7 @@ using System.Xml.Linq;
 namespace MkHealth_XmlAndWebServiceExamples
 {
     class Program
-    {
+    {    
         static void Main(string[] args)
         {
             Console.WriteLine("Program.Start");
@@ -35,6 +35,7 @@ namespace MkHealth_XmlAndWebServiceExamples
             ambulance_record1.Add(new XElement("podatok1", "vrednsot na podatok1"));
             ambulance_record1.Add(new XElement("podatok2", "vrednsot na podatok2"));
             ambulance_record1.Add(new XElement("podatok3", "vrednsot na podatok3"));
+            ambulance_record1.Add(new XElement("podatok4", "vrednsot na podatok4"));
             
             var listOf_mkb10_codes = new XElement("mkb10_codes");
             var mkb10_code1 = new XElement("mkb10_code");
